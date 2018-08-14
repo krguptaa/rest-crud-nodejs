@@ -34,6 +34,7 @@ This is a very basic example of rest api in Node.js
 
 ## Configuration (database)
 
+`````
 host: 'localhost',
 user: 'root',
 password : 'root',
