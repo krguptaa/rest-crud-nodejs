@@ -38,7 +38,7 @@ host: 'localhost',
 user: 'root',
 password : 'root',
 port : 3306, //port mysql
-database:'todo'	
+database:'node'	
 
 
 ## Below is the base url for rest api
@@ -48,9 +48,8 @@ You might need to pay attention on this , as we're using REST
 
 ``````
 Route			HTTP verb	Desc
-/todos			GET			get	All tasks
-/todo			POST		add new task
-/todo/:id		GET			get a task (for editing)
-/todo/:id		PUT			update a task
-/todo/:id		DELETE		delete a tasks
-`````
+/todos			GET			Get	All tasks
+/todo			POST		Add new task
+/todo/:id		GET			Get a task (for editing)
+/todo/:id		PUT			Update a task
+/todo/:id		DELETE		Delete a task
