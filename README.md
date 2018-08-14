@@ -46,9 +46,11 @@ database:'todo'
 
 You might need to pay attention on this , as we're using REST 
 
+``````
 Route			HTTP verb	Desc
 /todos			GET			get	All tasks
 /todo			POST		add new task
 /todo/:id		GET			get a task (for editing)
 /todo/:id		PUT			update a task
-/todo/:id		DELETE		delete a task
+/todo/:id		DELETE		delete a tasks
+`````
