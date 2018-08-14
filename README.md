@@ -9,17 +9,11 @@ This is a very basic example of rest api in Node.js
 ## Steps for generating the package for node Js
 
 1. Create the Folder 
-
 `mkdir foldername`
-
 2. initialize the package using npm
-
 `npm init` 
-
 3. Provide the details like 'package name, version and description etc'
-
 4. package.json will created in folder
-
 
 ## Install the express framework, mysql and body-parser
 
@@ -41,6 +35,7 @@ password : 'root',
 port : 3306, //port mysql
 database:'node'	
 
+`````
 
 ## Below is the base url for rest api
 `http://localhost:8080/`
@@ -48,7 +43,7 @@ database:'node'
 You might need to pay attention on this , as we're using REST 
 
 ``````
-Route			HTTP verb	Desc
+Route			HTTP Verb	Description
 /todos			GET			Get	All tasks
 /todo			POST		Add new task
 /todo/:id		GET			Get a task (for editing)
